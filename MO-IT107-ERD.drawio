@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T14:28:03.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Avr5k14gzt9kqKampMYO" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T14:10:32.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Jq6wTyoEdLbIqajteB2z" version="23.0.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="869" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,25 +38,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dojwYmuZUQa84D5is7iS-1" value="HR EMPLOYEE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="30" y="110" width="195" height="180" as="geometry" />
+          <mxGeometry x="30" y="710" width="195" height="180" as="geometry" />
         </mxCell>
         <mxCell id="dojwYmuZUQa84D5is7iS-2" value="+ ID&lt;br&gt;+ FIRST NAME&lt;br&gt;+ LAST NAME&lt;br&gt;+ BIRTHDAY&lt;br&gt;+ DEPARTMENT&lt;br&gt;+ POSITION&lt;br&gt;+ STARTED ON&lt;br&gt;+ DATA UPDATED ON" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="dojwYmuZUQa84D5is7iS-1" vertex="1">
           <mxGeometry y="50" width="195" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="e_CADfnXP_bFal_hTBPQ-1" value="PAYROLL EMPLOYEE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="610" y="120" width="195" height="180" as="geometry" />
+        <mxCell id="e_CADfnXP_bFal_hTBPQ-1" value="SUPERVISOR" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="620" y="710" width="195" height="180" as="geometry" />
         </mxCell>
         <mxCell id="e_CADfnXP_bFal_hTBPQ-2" value="+ ID&lt;br&gt;+ FIRST NAME&lt;br&gt;+ LAST NAME&lt;br&gt;+ BIRTHDAY&lt;br&gt;+ DEPARTMENT&lt;br&gt;+ POSITION&lt;br&gt;+ STARTED ON&lt;br&gt;+ DATA UPDATED ON" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="e_CADfnXP_bFal_hTBPQ-1" vertex="1">
           <mxGeometry y="50" width="195" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="XMFN1kc7oSm8j4sPq897-1" value="OVERTIME" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="XMFN1kc7oSm8j4sPq897-1" value="OVERTIME" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="328" y="650" width="195" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="XMFN1kc7oSm8j4sPq897-2" value="" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XMFN1kc7oSm8j4sPq897-1">
+        <mxCell id="XMFN1kc7oSm8j4sPq897-2" value="+ OVERTIME ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ EMPLOYEE ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ REASON FOR OVERTIME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ OVERTIME DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ OVERTIME DURATION&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ APPROVAL STATUS&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ SUPERVISOR ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="XMFN1kc7oSm8j4sPq897-1" vertex="1">
           <mxGeometry y="50" width="195" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="XMFN1kc7oSm8j4sPq897-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;curved=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="mP2uRWccmHhNL8mi_Wje-6" target="XMFN1kc7oSm8j4sPq897-1">
+        <mxCell id="XMFN1kc7oSm8j4sPq897-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;curved=0;startArrow=ERone;startFill=0;" parent="1" source="mP2uRWccmHhNL8mi_Wje-6" target="XMFN1kc7oSm8j4sPq897-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBv4iShZ-LCY7UfDkDl-4" value="" style="endArrow=ERmany;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="dojwYmuZUQa84D5is7iS-1" target="mP2uRWccmHhNL8mi_Wje-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="710" as="sourcePoint" />
+            <mxPoint x="140" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBv4iShZ-LCY7UfDkDl-8" value="" style="endArrow=ERmany;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="717" y="710" as="sourcePoint" />
+            <mxPoint x="717" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBv4iShZ-LCY7UfDkDl-9" value="" style="endArrow=ERmany;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" target="XMFN1kc7oSm8j4sPq897-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="820" as="sourcePoint" />
+            <mxPoint x="727" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
