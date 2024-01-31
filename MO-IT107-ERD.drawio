@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T14:59:08.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="28zp8IBnqbAz4OML0Grv" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T15:00:37.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JVJHO6tcVjbNKbApSw7n" version="23.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,10 +150,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F4ck-x829Nuf8X18YyEP-1" value="DEDUCTIONS" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="930" y="100" width="195" height="130" as="geometry" />
+          <mxGeometry x="930" y="150" width="195" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="F4ck-x829Nuf8X18YyEP-2" value="+ DEDUCTIONS ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ CALCULATED DEDUCTIONS&lt;br&gt;+ DEDUCTIONS DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="F4ck-x829Nuf8X18YyEP-1">
-          <mxGeometry y="50" width="195" height="80" as="geometry" />
+        <mxCell id="F4ck-x829Nuf8X18YyEP-2" value="+ DEDUCTIONS ID (PK)&lt;br&gt;+ CALCULATED DEDUCTIONS&lt;br&gt;+ DEDUCTIONS DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="F4ck-x829Nuf8X18YyEP-1">
+          <mxGeometry y="50" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="310" as="sourcePoint" />
+            <mxPoint x="620" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-5" value="" style="endArrow=ERone;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.999;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endFill=0;" edge="1" parent="1" source="mP2uRWccmHhNL8mi_Wje-14" target="F4ck-x829Nuf8X18YyEP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="220" as="sourcePoint" />
+            <mxPoint x="265.71067811865476" y="115" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
