@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T14:56:00.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_UO4cVxXI1exTm656pnB" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T14:57:16.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="pmncT-TM1tFLldf6r6M7" version="23.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -117,7 +117,7 @@
         <mxCell id="yTX0jJQAdNnNCAR2v_Tj-1" value="ATTENDANCE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="640" y="750" width="195" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="yTX0jJQAdNnNCAR2v_Tj-2" value="+ ATTENDANCE ID (PK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ EMPLOYEE ID (FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ TIME-IN (AM)&lt;br&gt;+ TIME-OUT (AM)&lt;br&gt;+ TIME-IN (PM)&lt;br&gt;+ TIME-OUT (PM)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ATTENDANCE DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yTX0jJQAdNnNCAR2v_Tj-1" vertex="1">
+        <mxCell id="yTX0jJQAdNnNCAR2v_Tj-2" value="+ ATTENDANCE ID (PK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ EMPLOYEE ID (FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ TIME-IN&lt;br&gt;+ BREAK-OUT&lt;br&gt;+ BREAK-IN&lt;br&gt;+ TIME-OUT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ATTENDANCE DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yTX0jJQAdNnNCAR2v_Tj-1" vertex="1">
           <mxGeometry y="50" width="195" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yTX0jJQAdNnNCAR2v_Tj-3" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=-0.018;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="yTX0jJQAdNnNCAR2v_Tj-2" edge="1">
