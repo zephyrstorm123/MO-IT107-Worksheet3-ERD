@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T15:00:43.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="p_BO91MZnJOw6Yk3FN99" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T15:06:47.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ldZ8a-pQDMXc-NKJBU3d" version="23.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mP2uRWccmHhNL8mi_Wje-5" value="EMPLOYEE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="300" y="310" width="195" height="180" as="geometry" />
+          <mxGeometry x="300" y="310" width="195" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="mP2uRWccmHhNL8mi_Wje-6" value="+ ID (PK)&lt;br&gt;+ FIRST NAME&lt;br&gt;+ LAST NAME&lt;br&gt;+ BIRTHDAY&lt;br&gt;+ DEPARTMENT&lt;br&gt;+ POSITION&lt;br&gt;+ STARTED ON&lt;br&gt;+ DATA UPDATED ON" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-5" vertex="1">
-          <mxGeometry y="50" width="195" height="130" as="geometry" />
+        <mxCell id="mP2uRWccmHhNL8mi_Wje-6" value="+ ID (PK)&lt;br&gt;+ FIRST NAME&lt;br&gt;+ LAST NAME&lt;br&gt;+ BIRTHDAY&lt;br&gt;+ DEPARTMENT&lt;br&gt;+ POSITION&lt;br&gt;+ STARTED ON&lt;br&gt;+ DATA UPDATED ON&lt;br&gt;+ USERNAME&lt;br&gt;+ PASSWORD&lt;br&gt;+ ACCESS ROLE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-5" vertex="1">
+          <mxGeometry y="50" width="195" height="170" as="geometry" />
         </mxCell>
         <mxCell id="mP2uRWccmHhNL8mi_Wje-11" value="LEAVE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="640" y="310" width="195" height="200" as="geometry" />
@@ -39,7 +39,7 @@
           <mxGeometry y="50" width="195" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gKhqBKZb4KCzymiJZquM-2" value="POSITION" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="21" y="495" width="210" height="110" as="geometry" />
+          <mxGeometry x="22" y="430" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gKhqBKZb4KCzymiJZquM-3" value="+ POSITION ID (PK)&lt;br&gt;+ POSITION TITLE&lt;br&gt;+ POSITION DESCRIPTION" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gKhqBKZb4KCzymiJZquM-2" vertex="1">
           <mxGeometry y="50" width="210" height="60" as="geometry" />
@@ -159,6 +159,26 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="220" as="sourcePoint" />
             <mxPoint x="265.71067811865476" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-7" value="ACCESS ROLE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="21.5" y="590" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-8" value="+ ACCESS ROLE ID (PK)&lt;br&gt;+ ACCESS ROLE&lt;br&gt;+ ACCESS ROLE RESTRICTIONS" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="F4ck-x829Nuf8X18YyEP-7">
+          <mxGeometry y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-9" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;entryX=-0.013;entryY=0.934;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" target="mP2uRWccmHhNL8mi_Wje-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="231.5" y="656" as="sourcePoint" />
+            <mxPoint x="297.5" y="634" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5.5" y="334" />
+              <mxPoint x="255.5" y="374" />
+              <mxPoint x="145.5" y="384" />
+              <mxPoint x="155.5" y="374" />
+              <mxPoint x="-14.5" y="354" />
+              <mxPoint x="-14.5" y="344" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
