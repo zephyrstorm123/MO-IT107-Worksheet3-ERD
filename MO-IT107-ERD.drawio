@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T14:46:18.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="476IbWmYJ5pPfSrpurYM" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T14:53:34.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iCAJ3mDJYdxfDpox-WDW" version="23.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -117,7 +117,7 @@
         <mxCell id="yTX0jJQAdNnNCAR2v_Tj-1" value="ATTENDANCE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="640" y="750" width="195" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="yTX0jJQAdNnNCAR2v_Tj-2" value="+ OVERTIME ID (PK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ EMPLOYEE ID (FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ REASON FOR OVERTIME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ OVERTIME DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ OVERTIME DURATION&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ APPROVAL STATUS&lt;br&gt;+ APPROVAL DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ SUPERVISOR ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yTX0jJQAdNnNCAR2v_Tj-1" vertex="1">
+        <mxCell id="yTX0jJQAdNnNCAR2v_Tj-2" value="+ ATTENDANCE ID (PK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ EMPLOYEE ID (FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ TIME-IN&lt;br&gt;+ OVERTIME DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ OVERTIME DURATION&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ APPROVAL STATUS&lt;br&gt;+ APPROVAL DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ SUPERVISOR ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yTX0jJQAdNnNCAR2v_Tj-1" vertex="1">
           <mxGeometry y="50" width="195" height="130" as="geometry" />
         </mxCell>
         <mxCell id="yTX0jJQAdNnNCAR2v_Tj-3" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=-0.018;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="yTX0jJQAdNnNCAR2v_Tj-2" edge="1">
@@ -148,6 +148,12 @@
               <mxPoint x="260" y="260" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-1" value="DEDUCTIONS" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="195" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="F4ck-x829Nuf8X18YyEP-2" value="+ DEDUCTIONS ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ CALCULATED DEDUCTIONS&lt;br&gt;+&amp;nbsp;" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="F4ck-x829Nuf8X18YyEP-1">
+          <mxGeometry y="50" width="195" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
