@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T07:10:13.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AESbL5BIDb03MQNKIoGI" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T08:27:33.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PH9T7_7qFU_PF36OYSi5" version="23.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -186,10 +186,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F4ck-x829Nuf8X18YyEP-10" value="GROSS SALARY" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="940" y="100" width="195" height="120" as="geometry" />
+          <mxGeometry x="940" y="100" width="195" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="F4ck-x829Nuf8X18YyEP-11" value="+ GROSS SALARY ID (PK)&lt;br&gt;+ EMPLOYEE ID&lt;br&gt;+ EARNINGS&lt;br&gt;+ ALLOWANCES" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="F4ck-x829Nuf8X18YyEP-10" vertex="1">
-          <mxGeometry y="50" width="195" height="70" as="geometry" />
+        <mxCell id="F4ck-x829Nuf8X18YyEP-11" value="+ GROSS SALARY ID (PK)&lt;br&gt;+ EMPLOYEE ID&lt;br&gt;+ EARNINGS&lt;br&gt;+ ALLOWANCES&lt;br&gt;+ GROSS SALARY DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="F4ck-x829Nuf8X18YyEP-10" vertex="1">
+          <mxGeometry y="50" width="195" height="90" as="geometry" />
         </mxCell>
         <mxCell id="F4ck-x829Nuf8X18YyEP-16" value="" style="curved=0;endArrow=ERone;html=1;rounded=1;entryX=-0.012;entryY=0.625;entryDx=0;entryDy=0;exitX=1.008;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERzeroToMany;startFill=0;endFill=0;entryPerimeter=0;" parent="1" source="XMFN1kc7oSm8j4sPq897-2" target="F4ck-x829Nuf8X18YyEP-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
