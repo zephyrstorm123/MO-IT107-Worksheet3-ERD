@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T12:20:06.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y6EUeq3gujb2XaJw7nN8" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T12:31:52.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="8fqKZEL_OuAxwRLg2C0t" version="23.1.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,16 +11,16 @@
           <mxGeometry y="50" width="195" height="170" as="geometry" />
         </mxCell>
         <mxCell id="mP2uRWccmHhNL8mi_Wje-11" value="LEAVE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="640" y="310" width="195" height="200" as="geometry" />
+          <mxGeometry x="640" y="310" width="195" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="mP2uRWccmHhNL8mi_Wje-12" value="+ APPLICATION ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ REASON FOR LEAVE&lt;br&gt;+ LEAVE START DATE&lt;br&gt;+ LEAVE END DATE&lt;br&gt;+ REQUEST DATE&lt;br&gt;+ APPROVAL STATUS&lt;br&gt;+ APPROVAL DATE&lt;br&gt;+ HR EMPLOYEE ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-11" vertex="1">
-          <mxGeometry y="50" width="195" height="150" as="geometry" />
+        <mxCell id="mP2uRWccmHhNL8mi_Wje-12" value="+ APPLICATION ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ REASON FOR LEAVE&lt;br&gt;+ LEAVE START DATE&lt;br&gt;+ LEAVE END DATE&lt;br&gt;+ REQUEST DATE&lt;br&gt;+ APPROVAL STATUS&lt;br&gt;+ COMMENTS&lt;br&gt;+ APPROVAL DATE&lt;br&gt;+ HR EMPLOYEE ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-11" vertex="1">
+          <mxGeometry y="50" width="195" height="160" as="geometry" />
         </mxCell>
         <mxCell id="mP2uRWccmHhNL8mi_Wje-13" value="PAYSLIP" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="640" y="100" width="195" height="180" as="geometry" />
+          <mxGeometry x="640" y="90" width="195" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="mP2uRWccmHhNL8mi_Wje-14" value="+ PAYSLIP ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ CUT-OFF DATE&lt;br&gt;+ GROSS SALARY (FK)&lt;br&gt;+ DEDUCTIONS (FK)&lt;br&gt;+ APPROVAL STATUS&lt;br&gt;+ APPROVAL DATE&lt;br&gt;+ HR EMPLOYEE ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-13" vertex="1">
-          <mxGeometry y="50" width="195" height="130" as="geometry" />
+        <mxCell id="mP2uRWccmHhNL8mi_Wje-14" value="+ PAYSLIP ID (PK)&lt;br&gt;+ EMPLOYEE ID (FK)&lt;br&gt;+ CUT-OFF DATE&lt;br&gt;+ GROSS SALARY (FK)&lt;br&gt;+ DEDUCTIONS (FK)&lt;br&gt;+ NET SALARY&lt;br&gt;+ APPROVAL STATUS&lt;br&gt;+ APPROVAL DATE&lt;br&gt;+ HR EMPLOYEE ID" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="mP2uRWccmHhNL8mi_Wje-13" vertex="1">
+          <mxGeometry y="50" width="195" height="150" as="geometry" />
         </mxCell>
         <mxCell id="mP2uRWccmHhNL8mi_Wje-16" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=none;endFill=1;startFill=0;entryX=-0.018;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="mP2uRWccmHhNL8mi_Wje-14" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -155,12 +155,12 @@
         <mxCell id="F4ck-x829Nuf8X18YyEP-2" value="+ DEDUCTIONS ID (PK)&lt;br&gt;+ CALCULATED DEDUCTIONS&lt;br&gt;+ DEDUCTIONS DATE" style="align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="F4ck-x829Nuf8X18YyEP-1" vertex="1">
           <mxGeometry y="50" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F4ck-x829Nuf8X18YyEP-5" value="" style="endArrow=ERone;html=1;rounded=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.999;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endFill=0;curved=0;" parent="1" source="mP2uRWccmHhNL8mi_Wje-14" target="F4ck-x829Nuf8X18YyEP-2" edge="1">
+        <mxCell id="F4ck-x829Nuf8X18YyEP-5" value="" style="endArrow=ERone;html=1;rounded=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.003;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endFill=0;curved=0;" parent="1" source="mP2uRWccmHhNL8mi_Wje-14" target="F4ck-x829Nuf8X18YyEP-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="220" as="sourcePoint" />
             <mxPoint x="265.71067811865476" y="115" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="220" />
+              <mxPoint x="850" y="210" />
               <mxPoint x="920" y="375" />
             </Array>
           </mxGeometry>
@@ -201,12 +201,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F4ck-x829Nuf8X18YyEP-21" value="" style="endArrow=ERone;html=1;rounded=1;entryX=-0.006;entryY=0.146;entryDx=0;entryDy=0;exitX=1;exitY=0.423;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endFill=0;curved=0;entryPerimeter=0;" parent="1" source="mP2uRWccmHhNL8mi_Wje-14" target="F4ck-x829Nuf8X18YyEP-11" edge="1">
+        <mxCell id="F4ck-x829Nuf8X18YyEP-21" value="" style="endArrow=ERone;html=1;rounded=1;entryX=-0.006;entryY=0.146;entryDx=0;entryDy=0;exitX=1.008;exitY=0.386;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endFill=0;curved=0;entryPerimeter=0;" parent="1" source="mP2uRWccmHhNL8mi_Wje-14" target="F4ck-x829Nuf8X18YyEP-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="210" as="sourcePoint" />
             <mxPoint x="910" y="150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="205" />
+              <mxPoint x="850" y="198" />
               <mxPoint x="920" y="163" />
             </Array>
           </mxGeometry>
